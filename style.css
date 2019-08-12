@@ -1,0 +1,101 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+
+}
+
+.container {
+  background-color:white;
+  margin: 0 auto;
+  width: 420px;
+
+}
+
+nav {
+  background-color: #AE18E2;
+  margin: 0 auto;
+  padding: 20px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+.bus-routes {
+  padding-top: 30px;
+  width:100%
+
+}
+.location h1 {
+  font-size:18px;
+  padding-left:5%;
+}
+
+.location:hover {
+  background-color:#A9A9A9;
+
+}
+
+.content {
+  float:left;
+  width:90%
+}
+
+.arrow {
+  float:inherit;
+  width:70%;
+
+}
+
+.content h3 {
+  font-size:15px;
+  font-weight:normal;
+  padding-left:5%
+}
+
+.fa-chevron-right {
+  padding-left:60%;
+  display:inline;
+
+}
+
+
+.location {
+  border-bottom:1px solid #000;
+}
+
+div.map {
+   width:420px; /*width of your image*/
+   height:420px; /*height of your image*/
+   background-image:url('images/map.jpg')
+
+ }
+
+.timebutton {
+  float:left;
+  padding-right:15px;
+  padding-top:15px;
+  padding-left:10px
+}
+
+h3 {
+  float:right;
+}
+
+h1 {
+  padding-top:30px
+}
+
+.status-bar {
+  position:relative;
+
+}
+
+[class^="fa fa-chevron-right fa-2x"] {
+  position: inline;
+  bottom:60px;
+  padding-left: 95px;
+}
