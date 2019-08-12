@@ -47,6 +47,7 @@ nav {
 .arrow {
   float:inherit;
   width:70%;
+  display:inline-block;
 
 }
 
@@ -58,7 +59,7 @@ nav {
 
 .fa-chevron-right {
   padding-left:60%;
-  display:inline;
+  display:inline-block;
 
 }
 
@@ -83,19 +84,21 @@ div.map {
 
 h3 {
   float:right;
+  display:inline-block;
 }
 
 h1 {
-  padding-top:30px
+  padding-top:30px;
+  display: inline-block;
 }
 
 .status-bar {
-  position:relative;
+  margin-top:
 
 }
 
 [class^="fa fa-chevron-right fa-2x"] {
-  position: inline;
+  display:inline-block;
   bottom:60px;
   padding-left: 95px;
 }
