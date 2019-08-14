@@ -26,12 +26,10 @@ nav {
 
 .bus-routes {
   padding-top: 10px;
-  width:100%
 
 }
 .location h1 {
   font-size:18px;
-  padding-left:5%;
 }
 
 .location:hover {
@@ -40,13 +38,13 @@ nav {
 }
 
 .content {
-  float:left;
-  width:90%
+  /**float:left;
+  width:90%**/
 }
 
 .arrow {
-  float:inherit;
-  width:70%;
+/*  float:inherit;
+  width:70%;*/
   display:inline-block;
 
 }
@@ -54,11 +52,9 @@ nav {
 .content h3 {
   font-size:15px;
   font-weight:normal;
-  padding-left:5%
 }
 
 .fa-chevron-right {
-  padding-left:60%;
   display:inline-block;
 
 }
@@ -76,19 +72,19 @@ div.map {
  }
 
 .timebutton {
-  float:left;
-  padding-right:15px;
+  display:inline-block;
+  /*padding-right:15px;
   padding-top:15px;
-  padding-left:10px
+  padding-left:10px*/
 }
 
 h3 {
-  float:right;
+  /*float:right;*/
   display:inline-block;
 }
 
 h1 {
-  padding-top:30px;
+  /*padding-top:30px;*/
   display: inline-block;
 }
 
