@@ -30,12 +30,19 @@ nav {
   padding-bottom:10px
 }
 
-.back-text {
+.back.text {
   color:white
 }
 
 .bus-routes {
   padding-top: 10px;
+
+}
+
+.route:last-child {
+  border-bottom:none
+
+}
 
 }
 .route h1 {
@@ -85,7 +92,7 @@ h3 {
 }
 
 div.map {
-   width:420px; 
+   width:420px;
    height:420px;
    background-image:url('images/map.jpg')
 
@@ -121,4 +128,9 @@ hr {
   border:3px solid #AE18E2;
   border-radius:1px;
 
+}
+
+.back-text {
+  color:white;
+  padding-left:5px
 }
