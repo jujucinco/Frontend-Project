@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>BusyBus</title>
     <link rel="stylesheet" href="reset.css">
@@ -8,122 +8,142 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
 
-  </head>
-  <body>
-    <section class="container">
-      <nav>
-        <div class="arrow-left">
-          <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
-          <img class="status-bar" src=images/base.jpg
+</head>
+<body>
+<section class="container">
+    <nav>
+        <div>
+            <img class="status-bar" src=images/base.jpg>
         </div>
-      </nav>
+        <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
+        <h1>
+        <span class="back.text">Back</span>
+      </h1>
+    </nav>
 
-      <div class="map">
-      </div>
+    <div class="map"></div>
 
-      <section class="bus-routes">
-        <div class="location">
-          <div class="content">
-            <img class="timebutton" src="images/20min.jpg" alt="twenty minutes">
-
-
-            <h1>60</h1>
-          <div class="fa fa-chevron-right fa-2x">
-          </div>
-            <h1><mark>Eastbound</mark></h1>
-            <h3>Randolph/HarborDr</h3>
-          </div>
-          </div>
-
-
-          <div class="location">
-          <div class="content">
-            <img class="timebutton" src="images/tenmin.jpg" alt="ten minutes">
-            <h1>124<h1>
-              <div class="fa fa-chevron-right fa-2x">
-              </div>
-               <h1><mark>Eastbound</mark></h1>
-            <h3>Navy Pier</h3>
-          </div>
-          </div>
-
-
-
-        <div class="location">
-          <div class="content">
-            <img class=timebutton src="images/sixteenmin.jpg" alt="sixteen minutes">
-            <h1>151</h1>
-            <div class="fa fa-chevron-right fa-2x">
+    <section class="bus-routes">
+        <div class="route">
+            <div class="time-button-container">
+                <img class="timebutton" src="images/20min.jpg" alt="twenty minutes">
             </div>
-           <h1><mark>Northbound</mark></h1>
-            <h3>Devon/Clark</h3>
-          </div>
-          </div>
 
-
-
-        <div class="location">
-          <div class="content">
-            <img class=timebutton src="images/fifteenmin.jpg" alt="fifteen minutes">
-            <h1>J14<h1>
-            <div class="fa fa-chevron-right fa-2x">
+            <div class="data">
+                <h1>60</h1>
+                <div class="fa fa-chevron-right fa-2x">
+                </div>
+                <h1>
+                    <mark>Eastbound</mark>
+                </h1>
+                <h3>Randolph/HarborDr</h3>
             </div>
-            <h1><mark>Southbound</mark></h1>
-            <h3>103rd/Stony Island</h3>
-          </div>
-          </div>
 
-
-
-        <div class="location">
-          <div class="content">
-            <img class=timebutton src="images/tenmin.jpg" alt="ten minutes">
-            <h1>124<h1>
-            <div class="fa fa-chevron-right fa-2x">
-            </div>
-            <h1><mark>Southbound</mark></h1>
-            <h3>Navy Pier</h3>
-          </div>
-          </div>
-    </section>
-
-
-      <section class="container">
-        <div class="location">
-          <div class="content">
-            <h1>6x Reroute</h1>
-          </div>
-            <h3>Jackson Park Express</h3>
-          </div>
-          </div>
-
-
-        <div class="location">
-          <div class="content">
-            <h1>4 Out of Service</h1>
-          </div>
-            <h3>Cottage Grove</h3>
-          </div>
-          </div>
-
-
-        <div class="location">
-          <div class="content">
-            <h1>20 Out of Service</h1>
-          </div>
-            <h3>Madison</h3>
-          </div>
         </div>
 
 
-        <div class="location">
-          <div class="content">
-            <div>
-            <h1>157 Out of Service</h1>
-          </div>
-            <h3>Streeterville/Taylor</h3>
-          </div>
-          </div>
+        <div class="route">
+            <div class="time-button-container">
+                <img class="timebutton" src="images/tenmin.jpg" alt="ten minutes">
+            </div>
+
+            <div class="data">
+                <h1>124</h1>
+                <div class="fa fa-chevron-right fa-2x">
+                </div>
+                <h1>
+                    <mark>Eastbound</mark>
+                </h1>
+                <h3>Navy Pier</h3>
+            </div>
+        </div>
+
+
+        <div class="route">
+            <div class="time-button-container">
+                <img class=timebutton src="images/sixteenmin.jpg" alt="sixteen minutes">
+            </div>
+
+            <div class="data">
+                <h1>151</h1>
+                <div class="fa fa-chevron-right fa-2x">
+                </div>
+                <h1>
+                    <mark>Northbound</mark>
+                </h1>
+                <h3>Devon/Clark</h3>
+            </div>
+        </div>
+
+
+        <div class="route">
+            <div class="time-button-container">
+                <img class=timebutton src="images/fifteenmin.jpg" alt="fifteen minutes">
+            </div>
+
+            <div class="data">
+                <h1>J14</h1>
+                <div class="fa fa-chevron-right fa-2x">
+                </div>
+                <h1>
+                    <mark>Southbound</mark>
+                </h1>
+                <h3>103rd/Stony Island</h3>
+            </div>
+        </div>
+
+
+        <div class="route">
+            <div class="time-button-container">
+                <img class=timebutton src="images/tenmin.jpg" alt="ten minutes">
+            </div>
+
+            <div class="data">
+                <h1>124</h1>
+                <div class="fa fa-chevron-right fa-2x">
+                </div>
+                <h1>
+                    <mark>Southbound</mark>
+                </h1>
+                <h3>Navy Pier</h3>
+            </div>
+        </div>
     </section>
-  </body>
+
+
+    <section class="alerts-container">
+        <hr/>
+        <div class="reroutes">
+            <h1 class="horizontal-center">Reroutes</h1>
+            <div class="alert">
+                <span>6x - </span>
+                <span>Jackson Park Express - </span>
+                <span>N/A</span>
+            </div>
+        </div>
+
+        <div class="out-of-service">
+            <h1 class="horizontal-center">Out of Service</h1>
+            <div class="alert">
+                <span>4 - </span>
+                <span>Cottage Grove - </span>
+                <span>Resumes 12:10am </span>
+            </div>
+
+            <div class="alert">
+                <span>20 - </span>
+                <span>Madison - </span>
+                <span>Resumes 12:10am</span>
+            </div>
+
+            <div class="alert">
+                <span>157 - </span>
+                <span>Streeterville/Taylor - </span>
+                <span>Resumes 6:00am</span>
+            </div>
+        </div>
+
+    </section>
+</section>
+</body>
 </html>
