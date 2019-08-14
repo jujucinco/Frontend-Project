@@ -90,7 +90,7 @@ h3 {
   padding:10px
 }
 
-div.map {
+div.Map {
    width:420px;
    height:420px;
    background-image:url('images/map.jpg')
