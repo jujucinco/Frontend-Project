@@ -13,43 +13,45 @@ body {
   background-color:white;
   margin: 0 auto;
   width: 420px;
-
 }
 
 nav {
   background-color: #AE18E2;
   margin: 0 auto;
-  padding: 20px 0 15px 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 20px;
   position: fixed;
   width: 420px;
+}
+
+.status-bar {
+  padding-bottom:10px
+}
+
+.back-text {
+  color:white
 }
 
 .bus-routes {
   padding-top: 10px;
 
 }
-.location h1 {
+.route h1 {
   font-size:18px;
 }
 
-.location:hover {
+.route:hover {
   background-color:#A9A9A9;
-
-}
-
-.content {
-  /**float:left;
-  width:90%**/
 }
 
 .arrow {
-/*  float:inherit;
-  width:70%;*/
   display:inline-block;
 
 }
 
-.content h3 {
+h3 {
   font-size:15px;
   font-weight:normal;
 }
@@ -60,41 +62,63 @@ nav {
 }
 
 
-.location {
+.route > * {
+  vertical-align: middle;
+}
+
+.route {
   border-bottom:1px solid #000;
+}
+.route .data {
+  display: inline-block;
+  padding:20px
+}
+
+.route .time-button-container {
+  display: inline-block;
+  padding-left:10px
+}
+
+.alert  {
+  border-bottom:1px solid #000;
+  padding:10px
 }
 
 div.map {
-   width:420px; /*width of your image*/
-   height:420px; /*height of your image*/
+   width:420px; 
+   height:420px;
    background-image:url('images/map.jpg')
 
  }
 
 .timebutton {
   display:inline-block;
-  /*padding-right:15px;
-  padding-top:15px;
-  padding-left:10px*/
 }
 
 h3 {
-  /*float:right;*/
   display:inline-block;
 }
 
 h1 {
-  /*padding-top:30px;*/
+  font-size: 20px;
   display: inline-block;
-}
-
-.status-bar {
-  margin-top:
 
 }
 
-[class^="fa fa-chevron-right fa-2x"] {
-  display:inline-block;
-  bottom:60px;
-  padding-left: 95px;
+.horizontal-center {
+  display: block;
+  text-align: center;
+  padding:8px;
+  font-size:18px;
+}
+
+
+.alert {
+  font-size:14px
+}
+
+hr {
+  border:3px solid #AE18E2;
+  border-radius:1px;
+
 }
