@@ -116,7 +116,7 @@ h1 {
 
 .alert {
   font-size:15px;
-  color:#696969	
+  color:#696969
 }
 
 hr {
@@ -137,32 +137,37 @@ hr {
 
 .tab-bar {
   background-color: #AE18E2;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 0;
-  padding-bottom: 20px;
+  margin: auto;
   width: 420px;
-
 }
 
 .home {
+  display:inline-block;
   padding-top:10px;
   font-size:10px;
-  color:white
+  color:white;
+  width:25%;
+
 }
 
 .favorites {
   float:right;
+  display:inline-block;
   font-size:10px;
   color:white;
+  padding-top:10px;
+  width:50%
 
 }
 
 .alerts {
   float:right;
+  display:inline-block;
   font-size:10px;
   color:white;
+  width:60%;
+  padding-top:10px;
+
 }
 
 .frequency {
