@@ -60,12 +60,6 @@ h3 {
   font-weight:normal;
 }
 
-.fa-chevron-right {
-  display:inline-block;
-  color:#AE18E2;
-
-}
-
 
 .route > * {
   vertical-align: middle;
@@ -86,10 +80,6 @@ h3 {
 
 }
 
-.alert  {
-  border-bottom:1px solid #000;
-  padding:10px
-}
 
 div.map {
    width:420px;
@@ -110,13 +100,26 @@ h3 {
 h1 {
   font-size: 20px;
   display: inline-block;
+}
+
+.alert {
+  color:#696969;
+  border-bottom:1px solid #000;
+  padding:10px;
 
 
 }
 
-.alert {
-  font-size:15px;
-  color:#696969
+.alert span {
+  font-size:16px;
+  line-height: 1.6em;
+  font-weight: bold;
+}
+
+.fa-chevron-right {
+  display:inline-block;
+  color:#AE18E2;
+  font-size:20px
 }
 
 hr {
@@ -146,7 +149,8 @@ hr {
   padding-top:10px;
   font-size:10px;
   color:white;
-  width:25%;
+  width:80px;
+  padding-left:20px
 
 }
 
@@ -156,7 +160,7 @@ hr {
   font-size:10px;
   color:white;
   padding-top:10px;
-  width:50%
+  width:100px
 
 }
 
@@ -165,7 +169,7 @@ hr {
   display:inline-block;
   font-size:10px;
   color:white;
-  width:60%;
+  width:80px;
   padding-top:10px;
 
 }
@@ -177,8 +181,7 @@ hr {
 
 
 .alert span:first-child {
-  font-size:15px;
+  font-size:16px;
   color: white;
   background-color: #AE18E2;
-
 }
