@@ -106,14 +106,14 @@ h1 {
   color:#696969;
   border-bottom:1px solid #000;
   padding:10px;
-
-
 }
 
+
 .alert span {
-  font-size:16px;
+  font-size:17px;
   line-height: 1.6em;
   font-weight: bold;
+  padding-left:5px
 }
 
 .fa-chevron-right {
@@ -145,22 +145,25 @@ hr {
 }
 
 .home {
+  float:left;
   display:inline-block;
   padding-top:10px;
   font-size:10px;
   color:white;
-  width:80px;
-  padding-left:20px
+  width:60px;
+  padding-left:20px;
+  padding-bottom:10px
 
 }
 
 .favorites {
-  float:right;
+  text-align:center;
   display:inline-block;
   font-size:10px;
   color:white;
   padding-top:10px;
-  width:100px
+  width:100px;
+  padding-bottom:10px
 
 }
 
@@ -171,6 +174,7 @@ hr {
   color:white;
   width:80px;
   padding-top:10px;
+  padding-bottom:10px
 
 }
 
@@ -179,9 +183,13 @@ hr {
   color:grey
 }
 
+ul {
+  text-align:center
+}
 
 .alert span:first-child {
   font-size:16px;
   color: white;
   background-color: #AE18E2;
 }
+
